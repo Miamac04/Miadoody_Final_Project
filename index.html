@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mia Doody – Visual Designer</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Pacifico&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+ 
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fef9f8;
+      color: #444;
+    }
+
+ 
+    header {
+      background-color: #e8f0ea; 
+      padding: 50px 20px;
+      border-bottom: 3px solid #c8d8ce;
+
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      gap: 40px; 
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.8em;
+      color: #5c6d60;
+      margin: 0;
+      flex-shrink: 0; /* prevent shrinking */
+    }
+
+    header img.gif-right {
+      max-width: 180px; /* bigger size for better readability */
+      height: auto;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+
+    nav {
+      background-color: #f6f4f1;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border-bottom: 1px dashed #d4cfc7;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #6c5d5d;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 12px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+
+    nav a:hover {
+      background-color: #eee;
+    }
+
+  
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid #d8e5dc;
+      object-fit: cover;
+      margin-bottom: 25px;
+
+      transition: transform 0.3s ease;
+    }
+
+    .profile-pic:hover {
+      transform: scale(1.05);
+    }
+
+    main p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #e5e5e5;
+    }
+
+ 
+    .profile-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mia Doody</h1>
+   
+    <img
+      src="img/design.GIF"
+      alt="GIF next to name"
+      class="gif-right"
+    />
+  </header>
+
+  <nav>
+    <a href="index.html">home</a>
+    <a href="inspiration.html">inspiration</a>
+    <a href="top 5.html">top fives</a>
+  </nav>
+
+  <div class="profile-flex">
+    <img src="img/Me.jpg" alt="Photo of Mia" class="profile-pic" />
+  </div>
+
+  <main>
+    <p>
+      I’m currently a thirdyear student at San Francisco State University,
+      entering my final year as a Visual Communication Design major. I enjoy
+      design because it allows for a lot of creativity and self expression in
+      the work I create. Looking ahead, I hope to pursue a career as a logo
+      designer. I also dream of starting my own small business on the side
+      perhaps a shop on Etsy or a similar platform where I can share and sell my
+      creative work independently.
+    </p>
+  </main>
+</body>
+</html>
